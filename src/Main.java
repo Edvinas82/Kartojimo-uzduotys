@@ -4,8 +4,11 @@ public class Main {
         isvestiPasisveikinimaIKonsole();
         isvestiPasisveikinimaIKonsole();
         isvestiPasisveikinimaIKonsole();
-        isvestiPasisveikinimaSuVardu();
-        isvestiPasisveikinimąSuVarduIrMetais();
+        isvestiPasisveikinimaSuVardu("Audrius");
+        isvestiPasisveikinimaSuVardu("Edvinas");
+        isvestiPasisveikinimaSuVardu("Edita");
+        isvestiPasisveikinimąSuVarduIrMetais("Edvinas", 40);
+        isvestiPasisveikinimąSuVarduIrMetais("Andrius", 42);
 
     }
     public static void isvestiPasisveikinimaIKonsole (){
@@ -13,17 +16,15 @@ public class Main {
     }
 
 
-    public static void isvestiPasisveikinimaSuVardu ()  {
-        System.out.println("Sveikas Audriau");
-        System.out.println("Sveikas Edvinai");
-        System.out.println("Sveika Edita");
+    public static void isvestiPasisveikinimaSuVardu (String vardas)  {
+        System.out.println("Sveikas "+vardas);
+
     }
 
-    public static void isvestiPasisveikinimąSuVarduIrMetais() {
-        System.out.println("Sveikas Andriau");
-        System.out.println("Man yra 40 metų");
-        System.out.println("Sviekas Edvinai");
-        System.out.println("Man yra 42 metai");
+    public static void isvestiPasisveikinimąSuVarduIrMetais(String vardas, int metai) {
+        System.out.println("Sveikas "+vardas);
+        System.out.println("Man yra "+metai+ " metų");
+
     }
 }
 
