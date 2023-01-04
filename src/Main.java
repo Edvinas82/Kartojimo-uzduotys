@@ -5,6 +5,7 @@ public class Main {
         isvestiPasisveikinimaIKonsole();
         isvestiPasisveikinimaIKonsole();
         isvestiPasisveikinimaSuVardu();
+        isvestiPasisveikinimąSuVarduIrMetais();
 
     }
     public static void isvestiPasisveikinimaIKonsole (){
@@ -16,6 +17,13 @@ public class Main {
         System.out.println("Sveikas Audriau");
         System.out.println("Sveikas Edvinai");
         System.out.println("Sveika Edita");
+    }
+
+    public static void isvestiPasisveikinimąSuVarduIrMetais() {
+        System.out.println("Sveikas Andriau");
+        System.out.println("Man yra 40 metų");
+        System.out.println("Sviekas Edvinai");
+        System.out.println("Man yra 42 metai");
     }
 }
 
