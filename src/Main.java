@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
+        String v1 = "Edvinas";
+        int m1 = 40;
+
         isvestiPasisveikinimaIKonsole();
         isvestiPasisveikinimaIKonsole();
         isvestiPasisveikinimaIKonsole();
@@ -9,6 +12,8 @@ public class Main {
         isvestiPasisveikinimaSuVardu("Edita");
         isvestiPasisveikinimąSuVarduIrMetais("Edvinas", 40);
         isvestiPasisveikinimąSuVarduIrMetais("Andrius", 42);
+        isvestiPasisveikinimąSuVarduIrMetais(v1, m1);
+
 
     }
     public static void isvestiPasisveikinimaIKonsole (){
